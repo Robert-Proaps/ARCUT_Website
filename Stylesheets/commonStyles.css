@@ -89,3 +89,18 @@ footer ul li {
     bottom: 5px;
     right: 5px;
 }
+/*This section stylizes the checkerboard pattern between the header and content section.*/
+.checkerboard1 {
+  width: 100vw;
+  height: 1.25vw;
+  background-image: linear-gradient(90deg, white 50%, orange 50%);
+  background-size: 2.5vw 2.5vw;
+  background-repeat: repeat;
+}
+.checkerboard2 {
+  width: 100vw;
+  height: 1.25vw;
+  background-image: linear-gradient(90deg, orange 50%, white 50%);
+  background-size: 2.5vw 2.5vw;
+  background-repeat: repeat;
+}
