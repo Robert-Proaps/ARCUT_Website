@@ -3,6 +3,14 @@
     --Tennessee_Orange: rgb(255, 130, 0);
 }
 
+@font-face {
+  font-family: 'CampusA';
+  src: url('../Assets/Fonts/Campus\ A.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 body {
     margin: 0;
     background-color: white;
@@ -17,7 +25,7 @@ body {
 #Navigation_Container {
     background-color: var(--Tennessee_Orange);
     width: 100vw;
-    height: 15vh;
+    height: 20vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -41,6 +49,8 @@ body {
 /*This little block makes sure the title is on the left and the nav is on the right*/
 .TitleText {
     margin-left: 10px;
+    font-family: CampusA;
+    font-size: 36pt;
 }
 nav {
     margin-right: 100px;
