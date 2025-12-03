@@ -19,6 +19,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    overflow-x: hidden;
 }
 
 /*This is the container for the whole header (orange region) its a flex box. This is made up of rows, its children are split into columns*/
