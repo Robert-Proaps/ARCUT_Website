@@ -1,6 +1,13 @@
+/*This is the stylesheet for the entire website, content here should be for styles used on every page. For individual content use that page's stylesheet.*/
 :root {
     --smokey_gray: rgb(117, 117, 117);
     --Tennessee_Orange: rgb(255, 130, 0);
+    --UTARC_Blue: rgb(27, 54, 93);
+}
+
+/*This recolors all unstyalize hyperlinks from purple to utarc blue*/
+a {
+    color: var(--UTARC_Blue);
 }
 
 @font-face {
@@ -77,6 +84,12 @@ nav ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+.contentRowLeftAligned {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
 }
 
 footer {

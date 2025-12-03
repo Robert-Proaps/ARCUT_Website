@@ -1,0 +1,8 @@
+/*This is the stylesheet for content specifically on the home page*/
+#welcomeSection {
+    display: flex;
+    flex-direction: column;
+    align: justify-content;
+    text-align: justify;
+    width: 50vw;
+}
