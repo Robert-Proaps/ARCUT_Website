@@ -127,14 +127,14 @@ footer ul li {
 .checkerboard1 {
   width: 100vw;
   height: 1.25vw;
-  background-image: linear-gradient(90deg, white 50%, orange 50%);
+  background-image: linear-gradient(90deg, white 50%, var(--Tennessee_Orange) 50%);
   background-size: 2.5vw 2.5vw;
   background-repeat: repeat;
 }
 .checkerboard2 {
   width: 100vw;
   height: 1.25vw;
-  background-image: linear-gradient(90deg, orange 50%, white 50%);
+  background-image: linear-gradient(90deg, var(--Tennessee_Orange) 50%, white 50%);
   background-size: 2.5vw 2.5vw;
   background-repeat: repeat;
 }
