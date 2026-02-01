@@ -108,10 +108,25 @@ footer {
     margin-top: auto;
 }
 
+footer div ul li a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+footer div ul li a:hover {
+    color: var(--UTARC_Blue)
+}
+
+footer div ul li {
+    padding-top: 3px;
+}
+
 #footerLinkRow {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+
 }
 
 #footerLinkRow ul li {
