@@ -1,7 +1,28 @@
 /*This is the stylesheet for content specifically on the home page*/
+:root {
+    --smokey_gray: rgb(117, 117, 117);
+    --Tennessee_Orange: rgb(255, 130, 0);
+    --UTARC_Blue: rgb(27, 54, 93);
+}
+
 #welcomeSection {
     display: flex;
     flex-direction: column;
     text-align: justify;
     width: 50vw;
+}
+
+#headline-carousel {
+    background-color: var(--Tennessee_Orange);
+    width: 100vw;
+}
+
+#headline-container {
+    animation: scrollLeft 15s linear infinite;
+    color: white;
+}
+
+@keyframes scrollLeft {
+    0% {transform: translateX(200%);}
+    100% {transform: translateX(-200%);}
 }
