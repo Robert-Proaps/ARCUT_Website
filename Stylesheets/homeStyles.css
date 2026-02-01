@@ -14,7 +14,7 @@
 
 #headline-carousel {
     background-color: var(--Tennessee_Orange);
-    width: 100%;
+    width: 100vw;
 }
 
 #headline-container {
