@@ -106,12 +106,18 @@ footer {
     justify-content: space-evenly;
     padding: 20px, 20px, 0px, 20px;
     margin-top: auto;
+    margin-bottom: 0;
 }
 
+#footerLinkRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
 
-
-footer ul li {
+#footerLinkRow ul li {
     list-style: none;
+    color: white;
 }
 
 #Copyright_Information {
